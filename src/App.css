@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +39,89 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  display: flex;
+  width: 650px;
+  height: 300px;
+  padding: 5px;
+  padding: 50px 50px;
+  border-bottom: 3px solid #F5F5F5;  
+}
+.card--img{
+  height: 100%;
+}
+.location--atributes{
+  font-size: 10.24px;
+  color: #2B283A;
+  font-style: regular;
+  letter-spacing: 17%;
+  display: flex;
+  padding: 5px; 
+}
+
+.main-part{
+  height: 100%;
+}
+.location--icon--box, .location--box, .url--box {
+  margin-right: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description{
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.description--paragraph{ 
+text-align: left;
+line-height: 15px;
+vertical-align: top;
+
+}
+.paragraph--title{
+  font-size: 22px;
+  color: #2B283A;
+  font-weight: bold;  
+}
+p {
+  font-size: 10.24px;
+  color: #2B283A;
+}
+.date{
+  font-weight: bold;
+}
+.location--icon{
+  width: 7px;
+  height: 9.55px;
+}
+.navbar--item{
+  background-color: #F55A5A;
+  display: flex;
+  height: 55px;
+  width: 100%;
+  justify-content: center;
+}
+.globe--icon{
+  width: 24px;
+  height: 24px;
+}
+.globe--box, .navbar--box{
+  margin-right: 5px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar--title{
+  color: #FFFFFF;
+  font-size: 14.46px;
+}
+a{
+  color: #918E9B;
 }
